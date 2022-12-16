@@ -1,0 +1,121 @@
+/* ===============
+extra small device 
+================ */
+
+
+@media (max-width:575px) {
+
+	/* navbar css start */
+
+	.navbar .navbar-brand {
+		margin-left: 10px;
+		padding: 5px 10px !important;
+	}
+
+	.navbar .navbar-brand img {
+		height: 40px;
+		transform: skewX(0deg);
+	}
+
+	.navbar .navbar-brand {
+
+		transform: skewX(0deg);
+
+	}
+
+	/* navbar css end */
+
+	/* banner css start */
+
+	.ms-auto {
+
+		text-align: center;
+	}
+
+	#banner .bg1 h2::before {
+		visibility: hidden;
+	}
+
+	#banner .bg1 h2::after {
+		visibility: hidden;
+	}
+
+
+	#banner .bg1 h1::before {
+		visibility: hidden;
+	}
+
+	#banner .bg1 h1::after {
+		visibility: hidden;
+	}
+
+
+	#banner .bg1 p::before {
+		visibility: hidden;
+	}
+
+	#banner .bg1 p::after {
+		visibility: hidden;
+	}
+
+	#banner .banner-item h1 {
+		font-size: 50px;
+	}
+
+	#banner .banner-item h2 {
+		font-size: 28px;
+	}
+
+	/* banner css end */
+
+	/* about css start */
+
+
+	#about {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	#about .heading h3 {
+		font-size: 20px;
+		margin-top: 15px;
+	}
+
+	
+	#about .about-text p:last-of-type{
+		padding-bottom: 20px;
+	}
+	/* about css end */
+	#counter-up{
+		margin-bottom: 50px;
+	}
+	
+	#counter-up .counter-main {
+    
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+	
+	#counter-up .counter-main .counter-item {
+    width: 100%;
+    
+}
+	
+	#counter-up .counter-main .counter-item p {
+    
+    padding-bottom: 0px;
+}
+	
+	#counter-up .counter-main .counter-item:last-of-type p{
+		padding-bottom: 30px;
+	}
+	
+	.heading h3 {
+    
+    font-size: 20px;
+   
+}
+
+}
