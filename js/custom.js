@@ -4,7 +4,7 @@ $(document).ready(function () {
 	$('.banner-slider').slick({
 		arrows: false,
 		dots:true,
-		autoplay:false,
+		autoplay:true,
 	});
 
 	//banner slider js
@@ -19,13 +19,13 @@ $(document).ready(function () {
 		delay: 10,
 		time: 1000
 	});
-	
+
 	//brand slider js
 	$('.brand-slider').slick({
 		slidesToShow: 5,
 		prevArrow: '<i class="fa fa-chevron-left previous-arrow" aria-hidden="true"></i>',
 		nextArrow: '<i class="fa fa-chevron-right next-arrow" aria-hidden="true"></i>',
-		
+
 	});
 
 });

@@ -1,8 +1,41 @@
 /* ===============
-extra small device 
+extra laptop device
 ================ */
+@media screen and (max-width: 1366px) {}
 
 
+/* ===============
+extra large device
+================ */
+@media screen and (max-width: 1024px) {
+	.section-heading {
+		font-size: 32px;
+		line-height: 42px;
+	}
+		.peragraph {
+			font-size: 16px;
+			line-height: 26px;
+		}
+}
+
+
+/* ===============
+extra medium device
+================ */
+@media screen and (max-width: 767px) {
+	.section-heading {
+			font-size: 28px;
+			line-height: 38px;
+		}
+				.peragraph {
+					font-size: 14px;
+					line-height: 24px;
+				}
+}
+
+/* ===============
+extra small device
+================ */
 @media (max-width:575px) {
 
 	/* navbar css start */
@@ -72,50 +105,42 @@ extra small device
 
 
 	#about {
-		margin-top: 50px;
 		margin-bottom: 50px;
 	}
 
-	#about .heading h3 {
-		font-size: 20px;
-		margin-top: 15px;
-	}
 
-	
-	#about .about-text p:last-of-type{
+
+	#about .about-text p:last-of-type {
 		padding-bottom: 20px;
 	}
+
 	/* about css end */
-	#counter-up{
+	#counter-up {
 		margin-bottom: 50px;
 	}
-	
+
 	#counter-up .counter-main {
-    
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-	
+
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
 	#counter-up .counter-main .counter-item {
-    width: 100%;
-    
-}
-	
+		width: 100%;
+
+	}
+
 	#counter-up .counter-main .counter-item p {
-    
-    padding-bottom: 0px;
-}
-	
-	#counter-up .counter-main .counter-item:last-of-type p{
+
+		padding-bottom: 0px;
+	}
+
+	#counter-up .counter-main .counter-item:last-of-type p {
 		padding-bottom: 30px;
 	}
-	
-	.heading h3 {
-    
-    font-size: 20px;
-   
-}
+
+
 
 }
