@@ -12,6 +12,7 @@
 	--mclr: #e23e38;
 	--mbg: #f1f1f1;
 	--mbtn: #ddd;
+	--peragraph: #333333;
 }
 
 /*=============
@@ -33,14 +34,21 @@ ul {
 
 
 /*==============
-common css ends 
+common css ends
 ================*/
 .heading h3 {
 	font-family: var(--hfont);
-	font-weight: 400;
-	font-size: 22px;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 50px;
 	color: var(--pclr);
-
+}
+.peragraph{
+	font-family: var(--hfont);
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 28px;
+		color: var(--peragraph);
 }
 
 .heading img {
@@ -49,7 +57,7 @@ common css ends
 
 
 /* ==================
-header-top css starts 
+header-top css starts
 ==================== */
 .header-top {
 	width: 100%;
@@ -149,7 +157,7 @@ header-top css starts
 }
 
 /* ==================
-header-top css end 
+header-top css end
 ==================== */
 
 /*=============
@@ -157,7 +165,7 @@ heading css ends
 ===============*/
 
 /* ==================
-nav-bar css starts 
+nav-bar css starts
 ==================== */
 .navbar {
 	background-color: #000 !important;
@@ -325,14 +333,14 @@ banner css ends
 }
 
 
-#about .about-text p {
+/* #about .about-text p {
 	font-family: var(--pfont);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 20px;
 	padding: 0 25px;
 
-}
+} */
 
 #about .about-text p:last-of-type {
 	padding-top: 5px;
