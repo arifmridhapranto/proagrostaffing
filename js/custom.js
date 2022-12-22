@@ -56,7 +56,7 @@ $(document).ready(function () {
      loop: true,
      speed: 400,
      margin: 30,
-     nav: true,gi
+     nav: true,
      slideBy: 1,
      responsive: {
        0: {
