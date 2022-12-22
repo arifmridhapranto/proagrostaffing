@@ -65,7 +65,7 @@ common css ends
 	font-weight: 800;
 	font-size: 40px;
 	line-height: 50px;
-	color: #1471c7;
+	color: #1491C7;
 	z-index: 999;
 }
 
@@ -777,7 +777,11 @@ counter-up css end
 .testimonials{
 	column-gap: 30px;
 	margin: 30px 0px;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
+	position: relative;
+}
+.testimonial-section .peragraph{
+	width: 75%;
 }
 
 .testimonials-item{
@@ -806,7 +810,7 @@ counter-up css end
 	font-weight: 500;
 		font-size: 16px;
 		line-height: 26px;
-		color: #1471c7;
+		color: #1491C7;
 		margin: 0;
 }
 .rating i{
@@ -823,6 +827,39 @@ counter-up css end
 .testimonials .owl-carousel .owl-item img{
 	width: 60px!important;
 }
+
+.testimonials .owl-nav .owl-prev{
+position: absolute;
+top: 50%;
+left: -90px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background-color: #e5e5e5!important;
+transform: translateY(-50%);
+}
+.testimonials .owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	right: -90px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #e5e5e5 !important;
+	transform: translateY(-50%);
+}
+.testimonials .owl-nav .owl-prev span, .testimonials .owl-nav .owl-next span{
+	font-size: 50px;
+	color: #8bc743;
+line-height:30px;
+}
+.testimonials .owl-nav .owl-prev:hover,.testimonials .owl-nav .owl-next:hover  {
+background-color: #8bc743 !important;
+}
+.testimonials .owl-nav .owl-prev:hover span, .testimonials .owl-nav .owl-next:hover span{
+	color: #fff
+}
+
 
 
 /*=============
