@@ -3,8 +3,8 @@ extra laptop device
 ================ */
 @media screen and (max-width: 1366px) {
 	.testimonial-section .peragraph {
-			width: 75%;
-		}
+		width: 75%;
+	}
 }
 
 
@@ -12,46 +12,100 @@ extra laptop device
 extra large device
 ================ */
 @media screen and (max-width: 1024px) {
+	.header-top {
+		height: 70px;
+		padding: 7px 0;
+	}
+
 	.section-heading {
 		font-size: 32px;
 		line-height: 42px;
 	}
-		.peragraph {
-			font-size: 16px;
-			line-height: 26px;
-		}
-				.testimonials .owl-nav .owl-prev {
-					position: absolute;
-					top: 50%;
-					left: -35px;
-					width: 40px;
-					height: 40px;
-					border-radius: 50%;
-					background-color: #e5e5e5 !important;
-					transform: translateY(-50%);
-				}
 
-				.testimonials .owl-nav .owl-next {
-					position: absolute;
-					top: 50%;
-					right: -35px;
-					width: 40px;
-					height: 40px;
-					border-radius: 50%;
-					background-color: #e5e5e5 !important;
-					transform: translateY(-50%);
-				}
+	.peragraph {
+		font-size: 16px;
+		line-height: 26px;
+	}
 
-				.testimonials .owl-nav .owl-prev span,
-				.testimonials .owl-nav .owl-next span {
-					font-size: 40px;
-					color: #8bc743;
-					line-height: 30px;
-				}
-								.testimonial-section .peragraph {
-									width: 90%;
-								}
+	.testimonials .owl-nav .owl-prev {
+		position: absolute;
+		top: 50%;
+		left: -35px;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #e5e5e5 !important;
+		transform: translateY(-50%);
+	}
 
+	.testimonials .owl-nav .owl-next {
+		position: absolute;
+		top: 50%;
+		right: -35px;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #e5e5e5 !important;
+		transform: translateY(-50%);
+	}
+
+	.testimonials .owl-nav .owl-prev span,
+	.testimonials .owl-nav .owl-next span {
+		font-size: 40px;
+		color: #8bc743;
+		line-height: 30px;
+	}
+
+	.testimonial-section .peragraph {
+		width: 90%;
+	}
+
+	.section-heading2 {
+
+		font-size: 32px;
+		line-height: 42px;
+
+	}
+
+	.counter-item p {
+
+		font-size: 18px;
+		line-height: 28px;
+
+	}
+
+	.number {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	.content-heading {
+		font-family: var(--hfont);
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 32px;
+		color: #000;
+	}
+
+	.Factsheet-area .peragraph {
+		width: 90%;
+
+	}
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	header {
+		padding: 0px 20px;
+	}
+
+	header nav {
+		display: none;
+	}
+
+	#hamburger-icon {
+		display: block;
+	}
 }
 
 
@@ -59,22 +113,105 @@ extra large device
 extra medium device
 ================ */
 @media screen and (max-width: 767px) {
+	header {
+		padding: 0px 20px;
+	}
+
+	header nav {
+		display: none;
+	}
+
+	#hamburger-icon {
+		display: block;
+	}
+
+	#menu-btn {
+		display: inline-block;
+	}
+
+	.navbar-toggler-icon {
+		height: 20px;
+		width: 20px;
+	}
+
+	.navbar-brand img {
+		width: 150px;
+	}
+
+	.header-top {
+		padding: 5px 20px
+	}
+
+	.header-top .container .left-side a {
+		font-size: 16px;
+		line-height: 26px;
+		;
+	}
+
+	.header-top .container .right-side a {
+		text-align: left;
+		padding-right: 10px;
+	}
+
 	.section-heading {
-			font-size: 28px;
-			line-height: 38px;
-		}
-				.peragraph {
-					font-size: 14px;
-					line-height: 24px;
-				}
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.peragraph {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#about {
+		padding: 60px 20px;
+	}
 
 
-								.testimonials .owl-nav .owl-prev,.testimonials .owl-nav .owl-next {
-									display: none;
-								}
-																.testimonial-section .peragraph {
-																	width: 100%;
-																}
+	.testimonials .owl-nav .owl-prev,
+	.testimonials .owl-nav .owl-next {
+		display: none;
+	}
+
+	.testimonial-section .peragraph {
+		width: 100%;
+	}
+
+	.section-heading2 {
+
+		font-size: 28px;
+		line-height: 38px;
+
+	}
+
+	.cta {
+		padding: 60px 20px;
+	}
+
+	.footer-section {
+		padding: 60px 20px;
+	}
+
+	#counter-up {
+		padding: 60px 20px;
+	}
+
+	.Factsheet-area .peragraph {
+		width: 100%;
+
+	}
+
+	.Factsheet-area {
+		padding: 60px 20px;
+	}
+
+	.Factsheet-area img {
+		margin-top: 20px
+	}
+
+	.Services {
+		padding: 60px 20px
+	}
 }
 
 /* ===============
@@ -159,9 +296,6 @@ extra small device
 	}
 
 	/* about css end */
-	#counter-up {
-		margin-bottom: 50px;
-	}
 
 	#counter-up .counter-main {
 
