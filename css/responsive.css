@@ -106,6 +106,14 @@ extra large device
 	#hamburger-icon {
 		display: block;
 	}
+	/* about page  */
+		.mission-area .container .description p {
+			padding: 0px 30px;
+		}
+				.mission-area .container .mission-heading h2 {
+					font-size: 32px;
+					line-height: 42px;
+				}
 }
 
 
@@ -212,6 +220,23 @@ extra medium device
 	.Services {
 		padding: 60px 20px
 	}
+
+
+
+
+
+/* about page */
+.mission-area {
+	padding: 0px 20px;
+}
+		.mission-area .container .description p {
+			padding: 0px 30px;
+		}
+				.mission-area .container .mission-heading h2 {
+					font-size: 28px;
+					line-height: 38px;
+				}
+
 }
 
 /* ===============

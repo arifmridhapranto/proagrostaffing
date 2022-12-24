@@ -1193,6 +1193,43 @@ CTA css end
 /*=============
 footer-section css start
 ==============*/
+
+
+#about-banner{
+	padding: 140px 0px;
+	background-image: url(../images/banner3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+
+}
+#about-banner::after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.70);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.banner-heading{
+	font-size: 56px;
+	font-weight: 800;
+	line-height:66px;
+	color: #fff
+}
+.banner-pera {
+	font-size: 24px;
+		font-weight: 500;
+		line-height: 34px;
+		color: #fff
+}
+
+
+
 #contact-us {
 	height: 900px;
 	width: 100%;
@@ -1299,22 +1336,17 @@ mission-area css start
 .mission-area {
 	width: 100%;
 	margin: 50px 0;
-	background-color: #f1f1f1;
+	background-color: #f9f9ff;
 }
 
 .mission-area h2 {
-	margin: 50px 0;
+	margin: 10px 0;
 }
 
-.mission-area h2 i {
-	padding: 0 50px;
-}
 
 
 .mission-area .container .icon i {
-	margin-left: 45%;
 	font-size: 50px;
-	padding: 50px 0;
 	color: #8bc743;
 
 }
@@ -1322,14 +1354,20 @@ mission-area css start
 .mission-area .container .box {
 	background-color: #1491c7;
 }
+.mission-area .container .mission-heading h2{
+	font-size: 36px;
+		line-height: 46px;
+		font-family: var(--hfont);
+		font-weight: 600;
 
+		color: #fff;
+}
 .mission-area .container .description p {
-	text-align: justify;
-	font-size: 20px;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
 	padding: 0 50px;
 	color: #fff;
-
-
 }
 
 /*=============
