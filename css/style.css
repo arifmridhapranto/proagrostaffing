@@ -285,8 +285,7 @@ nav-bar css starts
 navbar css ends
 ===============*/
 #banner {
-	width: 100%;
-	height: 100vh;
+	width: 100%;	
 }
 
 #banner .banner-item {
@@ -1200,6 +1199,7 @@ padding: 50px 0px
 	border: 1px solid #f4f4f4;
 	padding: 20px;
 	border-radius: 10px;
+	background-color: #FCF9FA;
 }
 #contact-us .contact-box .map iframe{
 	height: 250px;
@@ -1382,10 +1382,7 @@ emolyee-area css start
 	margin: 50px 0;
 }
 
-.emolyee-area h2 {
-	font-size: 30px;
-	font-weight: bolder;
-}
+
 
 .training-area ul {
 	margin-left: 0;
