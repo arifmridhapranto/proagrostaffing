@@ -38,16 +38,32 @@ button {
 
 .button {
 	padding: 16px 32px;
-	background-color: #fff;
+	background-color: #f9f9f9;
 	border-radius: 10px;
 	font-family: var(--hfont);
 	font-size: 20px;
 	line-height: 30px;
 	color: #000000;
+	transition: all 0.3s linear;
 }
 
 .button:hover {
 	background-color: #8bc743;
+	color: #fff;
+}
+.button2 {
+	padding: 16px 32px;
+	background-color: #8bc743;
+	border-radius: 10px;
+	font-family: var(--hfont);
+	font-size: 20px;
+	line-height: 30px;
+	color: #fff;
+	transition: all 0.3s linear;
+}
+
+.button2:hover {
+	background-color: #1491c7;
 	color: #fff;
 }
 
@@ -262,53 +278,6 @@ nav-bar css starts
 }
 
 
-
-/*
-.navbar {
-	background-color: #000 !important;
-
-}
-
-.navbar-light .navbar-toggler {
-	color: rgba(0, 0, 0, .55);
-	border-color: #fff;
-}
-
-.navbar .container .navbar-brand img {
-	width: 100px;
-	height: 60px;
-}
-
-
-.navbar .container .collapse .nav-item {
-	color: #fff !important;
-	padding-right: 20px !important;
-}
-
-.navbar .container .collapse .nav-item a {
-	color: #fff !important;
-	transition: all linear 0.4s;
-
-}
-
-
-.navbar .container .collapse .nav-item a:hover {
-	background: #8bc743;
-	border-radius: 5px;
-	color: #000 !important;
-
-}
-
-
-.navbar .container .collapse .nav-item:last-child {
-	padding-right: 0 !important;
-} */
-
-
-/* =================
-nav-bar css ends
-=================== */
-
 /*=============
 navbar css ends
 ===============*/
@@ -316,20 +285,6 @@ navbar css ends
 	width: 100%;
 	height: 100vh;
 }
-
-/* #banner .bg1 {
-	background: url(../images/banner1.gif) no-repeat center /cover;
-
-}
-
-#banner .bg2 {
-	background: url(../images/banner2.jpg) no-repeat center /cover;
-}
-
-#banner .bg3 {
-
-background: url(../images/banner3.jpg) no-repeat center /cover;
-} */
 
 #banner .banner-item {
 	position: relative;
@@ -1225,7 +1180,7 @@ footer-section css start
 	font-size: 24px;
 		font-weight: 500;
 		line-height: 34px;
-		color: #fff
+		color: #1491c7;
 }
 
 
@@ -1304,26 +1259,35 @@ about-area css start
 ==============*/
 
 .about-area {
-	height: 800px;
 	margin: 50px 0;
-	overflow: hidden;
 }
-
-.about-area .container {
-	height: 100vh;
-
+.our-spacitiality{
+	margin: 50px 0px;
 }
-
-.about-area .container h2 {
-	font-size: 30px;
-	font-weight: bolder;
-
+.our-spacitiality h2{
+	color: #000000;
+	margin-bottom: 20px;
 }
-
-.about-area .container p {
+.our-spacitiality ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+.our-spacitiality ul li {
+	color: #2C2C2C;
 	font-size: 16px;
-	padding-top: 30px;
+	line-height: 26px;
+	font-weight: 600;
+	font-family: var(--pfont);
+	margin-bottom: 15px;
 
+}
+.our-spacitiality ul li i{
+	color: #8bc743;
+	font-size: 16px;
+	margin-right: 10px;
+}
+.our-spacitiality button{
+	margin-top: 10px;
 }
 
 /*=============
@@ -1405,34 +1369,7 @@ tabs-area css start
 tabs-area css end
 ==============*/
 
-/*=============
-phone-area css start
-==============*/
-.phone-number {
-	height: 200px;
-	background: #8bc743;
-	overflow: hidden;
-	margin: 50px 0;
-}
 
-
-.phone-number i {
-	line-height: 200px;
-	color: #f1f1f1;
-	font-size: 100px;
-}
-
-.phone-number a {
-	line-height: 200px;
-	color: #f1f1f1;
-	font-size: 80px;
-}
-
-
-
-/*=============
-phone-area css end
-==============*/
 
 /*=============
 emolyee-area css start
@@ -1444,36 +1381,32 @@ emolyee-area css start
 .emolyee-area h2 {
 	font-size: 30px;
 	font-weight: bolder;
+}
+.training-area ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.training-area ul li {
+	color: #2C2C2C;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	font-family: var(--pfont);
+	margin-bottom: 15px;
 
 }
 
-.emolyee-area button {
-	font-size: 22px;
-	background: #1491c7;
-	padding: 15px 10px;
-	border-radius: 5px;
-	color: #f1f1f1;
-	margin-left: 50%;
-	transform: translateX(-50%);
-	margin-top: 50px;
-	transition: all linear .5s;
-
+.training-area ul li i {
+	color: #8bc743;
+	font-size: 16px;
+	margin-right: 10px;
 }
 
-.emolyee-area button:hover {
-	background: #8bc743;
-	color: #f1f1f1;
-
-}
 
 .training-area {
 	background-color: #f1f1f1;
-}
-
-.training-area h2 {
-	font-size: 30px;
-	font-weight: bolder;
-	margin: 30px 0;
+	padding: 50px 0px;
 }
 
 .training-area h4 {
