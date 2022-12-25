@@ -51,6 +51,7 @@ button {
 	background-color: #8bc743;
 	color: #fff;
 }
+
 .button2 {
 	padding: 16px 32px;
 	background-color: #8bc743;
@@ -187,6 +188,7 @@ nav-bar css starts
 	display: flex;
 	align-items: center;
 }
+
 .navbar-brand img {
 	width: 200px;
 }
@@ -269,7 +271,8 @@ nav-bar css starts
 	width: 100%;
 	background-color: black;
 	transition: all 0.5s ease-in-out;
-	z-index: 999;;
+	z-index: 999;
+	;
 }
 
 .mobile-menu li {
@@ -923,9 +926,7 @@ CTA css end
 
 
 #footer-bg {
-	margin-top: 50px;
-	background-color: #f1f1f1;
-	overflow: hidden;
+	padding: 50px 0px;
 
 }
 
@@ -993,19 +994,18 @@ CTA css end
 }
 
 #footer-bg form {
-	background: #f1f1f1;
 	position: relative;
-	padding-left: 25px;
 	padding-bottom: 30px;
 	margin-bottom: 50px;
 }
 
-#footer-bg h5 {
-	font-size: 30px;
-	line-height: 24px;
+#footer-bg h2 {
+	font-size: 36px;
+	line-height: 46px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	color: #222;
+	margin-bottom: 40px;
 }
 
 #footer-bg form p {
@@ -1019,39 +1019,44 @@ CTA css end
 }
 
 #footer-bg form .text-btn {
-	width: 400px;
-	margin-right: 10px;
-	line-height: 30px
+	width: 49%;
+	float: left;
+	margin-bottom: 20px;
+	height: 60px;
+	border: 1px solid #F1D2E1;
+	background-color: #FCF9FA;
+	border-radius: 5px;
+	padding: 10px 20px;
 }
 
 #footer-bg form .email-btn {
-	width: 400px;
-	line-height: 30px
+	width: 49%;
+	float: right;
+	margin-bottom: 20px;
+	height: 60px;
+	border: 1px solid #F1D2E1;
+	background-color: #FCF9FA;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+
+#footer-bg form input:focus,
+#footer-bg form .textarea:focus-visible,
+#footer-bg form .textarea:focus,
+#footer-bg form input:focus-visible {
+	border: 1px solid #8bc743;
+	outline: none;
 }
 
 #footer-bg form .textarea {
-	margin-top: 30px;
-	width: 810px;
-	height: 150px;
-	padding: 10px 0 0 10px;
-	text-transform: capitalize
-}
-
-#footer-bg form .submit-btn {
-	width: 60px;
-	height: 60px;
-	text-align: right;
-	padding-top: 20px;
-	padding-right: 10px;
-	font-size: 24px;
-	background: #d6c6b2;
-	-webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%);
-	clip-path: polygon(0 100%, 100% 0, 100% 100%);
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	position: absolute;
-	bottom: 32px;
-	right: 21px
+	padding: 10px 0px;
+	width: 100%;
+	border: 1px solid #F1D2E1;
+	background-color: #FCF9FA;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 10px 20px;
 }
 
 
@@ -1150,7 +1155,7 @@ footer-section css start
 ==============*/
 
 
-#about-banner{
+#about-banner {
 	padding: 140px 0px;
 	background-image: url(../images/banner3.jpg);
 	background-position: center;
@@ -1160,6 +1165,7 @@ footer-section css start
 	z-index: 1;
 
 }
+
 #about-banner::after {
 	content: '';
 	width: 100%;
@@ -1170,83 +1176,73 @@ footer-section css start
 	left: 0;
 	z-index: -1;
 }
-.banner-heading{
+
+.banner-heading {
 	font-size: 56px;
 	font-weight: 800;
-	line-height:66px;
+	line-height: 66px;
 	color: #fff
 }
+
 .banner-pera {
 	font-size: 24px;
-		font-weight: 500;
-		line-height: 34px;
-		color: #1491c7;
+	font-weight: 500;
+	line-height: 34px;
+	color: #1491c7;
 }
 
 
 
 #contact-us {
-	height: 900px;
+padding: 50px 0px
+}
+#contact-us .contact-box {
+	border: 1px solid #f4f4f4;
+	padding: 20px;
+	border-radius: 10px;
+}
+#contact-us .contact-box .map iframe{
+	height: 250px;
 	width: 100%;
-	overflow: hidden;
+	border-radius: 10px;
 }
 
-#contact-us .heading {
-	height: 100px;
-	width: 100%;
-}
-
-#contact-us .heading h2 {
-	line-height: 100px;
-	font-size: 30px;
-	font-weight: bold;
-}
-
-#contact-us .portugal-area img {
-	height: 300px;
-	width: 500px;
-
-}
-
-#contact-us .bangladesh-area img {
-	height: 300px;
-	width: 500px;
-
-}
 
 #contact-us .location ul {
-	text-align: left;
-	color: #000;
-	padding-left: 0;
 	margin-top: 30px;
+	padding-left: 0;
 }
 
 #contact-us .location ul li {
 	text-decoration: none;
 	color: #000;
 	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
 	padding-bottom: 10px;
 
 }
 
 #contact-us .location ul li i {
 	display: inline-block;
-	color: rgb(168, 6, 6);
-	font-size: 22px;
+	color: #1491C7;
+	font-size: 24px;
 	padding-right: 10px;
+	margin-top: 5px;
 
 }
 
 #contact-us .location ul li a {
 	display: inline-block;
-	font-size: 16px;
+	font-size: 18px;
+	line-height: 28px;
 	text-decoration: none;
 	color: #000;
 	transition: all linear 0.5s;
 }
 
 #contact-us .location ul li a:hover {
-	color: #1491c7;
+	color: #8bc743;
 }
 
 /*=============
@@ -1261,17 +1257,21 @@ about-area css start
 .about-area {
 	margin: 50px 0;
 }
-.our-spacitiality{
+
+.our-spacitiality {
 	margin: 50px 0px;
 }
-.our-spacitiality h2{
+
+.our-spacitiality h2 {
 	color: #000000;
 	margin-bottom: 20px;
 }
+
 .our-spacitiality ul {
 	margin-left: 0;
 	padding-left: 0;
 }
+
 .our-spacitiality ul li {
 	color: #2C2C2C;
 	font-size: 16px;
@@ -1281,12 +1281,14 @@ about-area css start
 	margin-bottom: 15px;
 
 }
-.our-spacitiality ul li i{
+
+.our-spacitiality ul li i {
 	color: #8bc743;
 	font-size: 16px;
 	margin-right: 10px;
 }
-.our-spacitiality button{
+
+.our-spacitiality button {
 	margin-top: 10px;
 }
 
@@ -1318,14 +1320,16 @@ mission-area css start
 .mission-area .container .box {
 	background-color: #1491c7;
 }
-.mission-area .container .mission-heading h2{
-	font-size: 36px;
-		line-height: 46px;
-		font-family: var(--hfont);
-		font-weight: 600;
 
-		color: #fff;
+.mission-area .container .mission-heading h2 {
+	font-size: 36px;
+	line-height: 46px;
+	font-family: var(--hfont);
+	font-weight: 600;
+
+	color: #fff;
 }
+
 .mission-area .container .description p {
 	font-size: 18px;
 	line-height: 28px;
@@ -1382,6 +1386,7 @@ emolyee-area css start
 	font-size: 30px;
 	font-weight: bolder;
 }
+
 .training-area ul {
 	margin-left: 0;
 	padding-left: 0;
@@ -1435,7 +1440,7 @@ services-area css start
 
 
 .service-area .heading h2 {
-	margin-bottom: 20px!important;
+	margin-bottom: 20px !important;
 
 
 }

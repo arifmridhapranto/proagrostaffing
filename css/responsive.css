@@ -5,10 +5,11 @@ extra laptop device
 	.testimonial-section .peragraph {
 		width: 75%;
 	}
-		.banner-heading {
-			font-size: 48px;
-			line-height: 58px;
-		}
+
+	.banner-heading {
+		font-size: 48px;
+		line-height: 58px;
+	}
 }
 
 
@@ -95,14 +96,21 @@ extra large device
 		width: 90%;
 
 	}
-		.banner-heading {
-			font-size: 40px;
-			line-height: 50px;
-		}
-		.banner-pera{
-			font-size: 20px;
-			line-height: 30px;
-		}
+
+	.banner-heading {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.banner-pera {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	#footer-bg h2 {
+		font-size: 32px;
+		line-height: 42px
+	}
 
 }
 
@@ -141,14 +149,21 @@ extra large device
 		font-size: 28px;
 		line-height: 38px;
 	}
-		.banner-heading {
-			font-size: 32px;
-			line-height: 42px;
-		}
-				.banner-pera {
-					font-size: 20px;
-					line-height: 30px;
-				}
+
+	.banner-heading {
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	.banner-pera {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	#footer-bg h2 {
+		font-size: 28px;
+		line-height: 38px
+	}
 }
 
 
@@ -266,14 +281,16 @@ extra medium device
 
 
 	/* about page */
-	.banner-heading{
+	.banner-heading {
 		font-size: 28px;
 		line-height: 38px;
 	}
-		.banner-pera {
-			font-size: 18px;
-			line-height: 28px;
-		}
+
+	.banner-pera {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
 	.mission-area {
 		padding: 0px 20px;
 	}
@@ -287,18 +304,42 @@ extra medium device
 		line-height: 38px;
 	}
 
-.about-area{
-	padding: 0px 20px;
-}
-		.our-spacitiality{
-			padding: 0px 20px;
-		}
-		.training-area{
-			padding: 50px 20px;
-		}
+	.about-area {
+		padding: 0px 20px;
+	}
 
-		.service-area {
-padding: 0px 20px;
+	.our-spacitiality {
+		padding: 0px 20px;
+	}
+
+	.training-area {
+		padding: 50px 20px;
+	}
+
+	.service-area {
+		padding: 0px 20px;
+	}
+
+	#footer-bg {
+		padding: 50px 20px;
+	}
+
+	#footer-bg h2 {
+		font-size: 28px;
+		line-height: 38px
+	}
+
+	#footer-bg form .text-btn {
+		width: 100%;
+
+	}
+
+	#footer-bg form .email-btn {
+		width: 100%;
+	}
+
+		#contact-us {
+			padding: 50px 20px
 		}
 
 }
