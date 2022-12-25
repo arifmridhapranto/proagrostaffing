@@ -1428,22 +1428,14 @@ emolyee-area css end
 services-area css start
 ==============*/
 .service-area {
-	width: 100%;
 	margin: 50px 0;
-
 }
 
-.service-area .container {
-	border-bottom: 1px solid #ddd;
 
-
-}
 
 
 .service-area .heading h2 {
-	font-size: 30px;
-	font-weight: bolder;
-	margin-bottom: 50px !important;
+	margin-bottom: 20px!important;
 
 
 }
@@ -1461,32 +1453,11 @@ services-area css start
 
 
 .selection-area .heading h2 {
-	font-size: 30px;
-	font-weight: bolder;
-	margin-bottom: 50px !important;
+	margin-bottom: 20px !important;
 	padding-top: 30px;
 
 }
 
-
-.selection-area button {
-	font-size: 22px;
-	background: #1491c7;
-	padding: 15px 10px;
-	border-radius: 5px;
-	color: #f1f1f1;
-	margin-left: 50%;
-	transform: translateX(-50%);
-	margin-top: 50px;
-	transition: all linear .5s;
-
-}
-
-.selection-area button:hover {
-	background: #8bc743;
-	color: #f1f1f1;
-
-}
 
 .selection-area .image img {
 	margin-top: 50px;
