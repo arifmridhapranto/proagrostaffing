@@ -19,6 +19,11 @@
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script>
+		emailjs.init('YG_EToidA4Cd-tDVI');
+	</script>
 </head>
 
 <body>
@@ -65,10 +70,10 @@
 						<a class="nav-link " aria-current="page" href="./index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="./about.html">About us</a>
+						<a class="nav-link " href="./about.html">About us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./recuitment.html">Recruitment</a>
+						<a class="nav-link active" href="./recuitment.html">Recruitment</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./employer.html">Employer</a>
@@ -92,10 +97,10 @@
 						<a class="nav-link " aria-current="page" href="./index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="./about.html">About us</a>
+						<a class="nav-link " href="./about.html">About us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./recuitment.html">Recruitment</a>
+						<a class="nav-link active" href="./recuitment.html">Recruitment</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./employer.html">Employer</a>
@@ -123,8 +128,8 @@
 	<section id="about-banner">
 		<div class="container">
 			<div class="text-center">
-				<h1 class="banner-heading">About Us</h1>
-				<p class="banner-pera">Home > About Us</p>
+				<h1 class="banner-heading">Reqrutement</h1>
+				<p class="banner-pera">Home > Reqrutement</p>
 			</div>
 		</div>
 	</section>
@@ -133,101 +138,107 @@
 	          banner-section end
 	       ================= -->
 
-<!-- ==================
+	<!-- ==================
 	 membership start
 	 ================== -->
 
-	 <section id="member">
+
+
+
+
+	<section class="pricing py-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 m-auto">
+				<div class="col-lg-6 col-12 m-auto">
 					<header class="heading text-center">
-						<h3 class="text-uppercase">Our Recruiting Services</h3>
+						<h3 class="text-uppercase section-heading text-white">Our Recruiting Services</h3>
 						<img src="images/heading-img.png" alt="heading-img.png">
 					</header>
 				</div>
 			</div>
-		</div>
-	</section>
-
-
-	<section id="membership">
-		<div class="container">
 			<div class="row">
+				<!-- Free Tier -->
 				<div class="col-lg-4">
-					<div class="member-box">
-						<div class="head">
-							<h2>Skilled Labour</h2>
-						</div>
-						<div class="para">
-							<ul class="m-0 p-0">
-								<li>Welder (IBR, TIG, MIG, FCAW, SMAW)</li>
-								<li>Assembly Line Executives</li>
-								<li>CNC & VMC Operators</li>
-								<li>Fitter Mechanical</li>
-								<li>Motor Mechanic</li>
-								<li>Refrigeration Operator</li>
-								<li>Refrigeration Operator</li>
-								<li>Forklift Operator</li>
-								<li>Fitter Fabricators</li>
-								<li>Fitter Mechanical</li>
-								<li>Turner</li>
+					<div class="card mb-5 mb-lg-0">
+						<div class="card-body">
+
+							<h6 class="card-price text-center">UnSkilled Labour</h6>
+							<hr>
+							<ul class="fa-ul">
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects
+								</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
+									Private Projects</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
+									Phone Support</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free
+									Subdomain
+								</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly
+									Status
+									Reports</li>
 							</ul>
-						</div>
-						<div class="footer">
-							<a href="#">Hire Now</a>
+							<div class="d-grid">
+								<a href="#" class="btn btn-primary text-uppercase">Hire Now</a>
+							</div>
 						</div>
 					</div>
 				</div>
-
+				<!-- Plus Tier -->
 				<div class="col-lg-4">
-					<div class="member-box">
-						<div class="head">
-							<h2>Semi-skilled</h2>
-						</div>
-						<div class="para">
-							<ul class="m-0 p-0">
-								<li>Fitter</li>
-								<li>Helper</li>
-								<li>Loader</li>
-								<li>Picker</li>
-								<li>Carpenter</li>
-								<li>Foundry man</li>
-								<li>&times;</li>
-								<li>&times;</li>
-								<li>&times;</li>
-								<li>&times;</li>
-								<li>&times;</li>
+					<div class="card mb-5 mb-lg-0">
+						<div class="card-body">
+
+							<h6 class="card-price text-center">Semi Skilled Labour</h6>
+							<hr>
+							<ul class="fa-ul">
+								<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects
+								</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects
+								</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
+								<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly
+									Status
+									Reports</li>
 							</ul>
-						</div>
-						<div class="footer">
-							<a href="#">Hire Now</a>
+							<div class="d-grid">
+								<a href="#" class="btn btn-primary text-uppercase">Hire Now</a>
+							</div>
 						</div>
 					</div>
 				</div>
-
+				<!-- Pro Tier -->
 				<div class="col-lg-4">
-					<div class="member-box">
-						<div class="head">
-							<h2>Unskilled Labour</h2>
-						</div>
-						<div class="para">
-							<ul class="m-0 p-0">
-								<li>Fitter</li>
-								<li>Helper</li>
-								<li>Loader</li>
-								<li>Picker</li>
-								<li>Carpenter</li>
-								<li>Foundry man</li>
-								<li>&times;</li>
-								<li>&times;</li>
-								<li>&times;</li>
-								<li>&times;</li>
-								<li>&times;</li>
+					<div class="card">
+						<div class="card-body">
+							<h6 class="card-price text-center">Skilled Labour</h6>
+							<hr>
+							<ul class="fa-ul">
+								<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited
+										Users</strong>
+								</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects
+								</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects
+								</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong>
+									Free
+									Subdomains</li>
+								<li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
 							</ul>
-						</div>
-						<div class="footer">
-							<a href="#">Hire Now</a>
+							<div class="d-grid">
+								<a href="#" class="btn btn-primary text-uppercase">Hire Now</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -239,137 +250,179 @@
 	 membership end
 	 ================== -->
 
-
-
-
-
-
-	<!-- ===================
-          tab-section start
-       ================= -->
-	<div class="tab-area">
+	<section class="tab-section">
 		<div class="container">
-			<div class="row">
-				<ul class="nav nav-tabs">
-					<li class="nav-item ">
-						<a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="#contact"><i
-								class="fa-solid fa-person"></i> Contact Labour</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" data-bs-toggle="tab" href="#technical"><i
-								class="fa-sharp fa-solid fa-life-ring"></i> Technical Staff</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" data-bs-toggle="tab" href="#managers"><i class="fa-solid fa-truck-fast"></i>
-							Managers</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" data-bs-toggle="tab" href="#engineer"><i class="fa-solid fa-building"></i>
-							Engineer</a>
-					</li>
-				</ul>
-
-				<div class="tab-content">
-					<div class="tab-pane active" id="contact">
-						<div class="row">
-							<div class="col-lg-12 tab">
-								<h2>Manpower.com.bd</h2>
-								<p>is a provider of solutions in human resources focused on business results.Our member
-									organizations represent a variety of industries and company sizes,so we customize
-									our service to fit your specific needs,however big or small.</p>
-								<p>You could certainly go to an online job portal and recuit the required candidate for
-									your business.It is important that you understand the defference between hiring a
-									job Placement of Bangladesh women and hiring candidates yourself.</p>
-								<div class="features">
-									<h4>Features</h4>
-									<p>1. Customizatin services</p>
-									<p>2. Professional services</p>
-									<p>3.Reliable services</p>
-								</div>
+			<div class="wrapper">
+				<div class="tabs">
+					<div class="tab">
+						<input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
+						<label for="tab-1" class="tab-label">Contact Labour</label>
+						<div class="tab-content">
+							<h2>Manpower.com.bd</h2>
+							<p>is a provider of solutions in human resources focused on business results.Our member
+								organizations represent a variety of industries and company sizes,so we customize
+								our service to fit your specific needs,however big or small.</p>
+							<p>You could certainly go to an online job portal and recuit the required candidate for
+								your business.It is important that you understand the defference between hiring a
+								job Placement of Bangladesh women and hiring candidates yourself.</p>
+							<div class="features">
+								<h4>Features</h4>
+								<p>1. Customizatin services</p>
+								<p>2. Professional services</p>
+								<p>3.Reliable services</p>
 							</div>
 						</div>
 					</div>
-
-					<div class="tab-pane" id="technical">
-						<div class="row">
-							<div class="col-lg-12 tab">
-								<p>To meet the desired specification of cliens,we offer effective services for Technical
-									Staffs to our clients.Our services are designed and catered in very systematic
-									manner so as to pay special attention to the specific demands of clients.To maintain
-									the industry standards.We conduct various recruitment processes to select
-									well-trained Technical Staffs to our clients.We ensure our clients for timely
-									execution,cost effectiveness and reliable servises.</p>
-								<div class="features">
-									<h4>Features</h4>
-									<p>1. Planned services</p>
-									<p>2. Highly appreciated services</p>
-									<p>3. Satisfactory services</p>
-								</div>
+					<div class="tab">
+						<input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
+						<label for="tab-2" class="tab-label">technical Staff</label>
+						<div class="tab-content">
+							<p>To meet the desired specification of cliens,we offer effective services for Technical
+								Staffs to our clients.Our services are designed and catered in very systematic
+								manner so as to pay special attention to the specific demands of clients.To maintain
+								the industry standards.We conduct various recruitment processes to select
+								well-trained Technical Staffs to our clients.We ensure our clients for timely
+								execution,cost effectiveness and reliable servises.</p>
+							<div class="features">
+								<h4>Features</h4>
+								<p>1. Planned services</p>
+								<p>2. Highly appreciated services</p>
+								<p>3. Satisfactory services</p>
 							</div>
 						</div>
 					</div>
-
-					<div class="tab-pane" id="managers">
-						<div class="row">
-							<div class="col-lg-12 tab">
-								<p>Being clients oriented organiazation;we are able to offer our clients effective
-									solution for Managers and Department Heads.Our main focus is to offer quality based
-									services to our clients and for which we arrange these services in very systematic
-									manner and ensure our clients for well-trained and Skilled employees.We conduct
-									various planned recruitment processes to select well-educated,experienced and
-									accomplished personnel.</p>
-								<div class="features">
-									<h4>Features</h4>
-									<p>1. Satisfactory services</p>
-									<p>2. Effective services</p>
-									<p>3. Renowned services</p>
-								</div>
+					<div class="tab">
+						<input type="radio" name="css-tabs" id="tab-3" class="tab-switch">
+						<label for="tab-3" class="tab-label">Managers</label>
+						<div class="tab-content">
+							<p>Being clients oriented organiazation;we are able to offer our clients effective
+								solution for Managers and Department Heads.Our main focus is to offer quality based
+								services to our clients and for which we arrange these services in very systematic
+								manner and ensure our clients for well-trained and Skilled employees.We conduct
+								various planned recruitment processes to select well-educated,experienced and
+								accomplished personnel.</p>
+							<div class="features">
+								<h4>Features</h4>
+								<p>1. Satisfactory services</p>
+								<p>2. Effective services</p>
+								<p>3. Renowned services</p>
 							</div>
 						</div>
 					</div>
-
-					<div class="tab-pane" id="engineer">
-						<div class="row">
-							<div class="col-lg-12 tab">
-								<p>We are step ahead in a offering our clients effective services for Engineers.To offer
-									meximum satisfaction to our clients we systematically arrange our services and offer
-									well-trained and highly efficent Engineers.As per the demands of the clients,we
-									offer these engineers from defferent fields including software,mechanical,electrical
-									and civil,Furthermore,we also conduct various training sessions to train our
-									engineers and ensure our clients for result oriented services.</p>
-								<div class="features">
-									<h4>Features</h4>
-									<p>1. Appreciated services</p>
-									<p>2. Reliable services</p>
-									<p>3. Result oriented services</p>
-								</div>
+					<div class="tab">
+						<input type="radio" name="css-tabs" id="tab-4" class="tab-switch">
+						<label for="tab-4" class="tab-label">Engineers</label>
+						<div class="tab-content">
+							<p>We are step ahead in a offering our clients effective services for Engineers.To offer
+								meximum satisfaction to our clients we systematically arrange our services and offer
+								well-trained and highly efficent Engineers.As per the demands of the clients,we
+								offer these engineers from defferent fields including software,mechanical,electrical
+								and civil,Furthermore,we also conduct various training sessions to train our
+								engineers and ensure our clients for result oriented services.</p>
+							<div class="features">
+								<h4>Features</h4>
+								<p>1. Appreciated services</p>
+								<p>2. Reliable services</p>
+								<p>3. Result oriented services</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</section>
+
+
+
+	<div id="footer-bg">
+		<div class="container">
+			<div class="row">
+				<div class=" col-md-8 mx-auto">
+					<h2 class="mb-0 text-center">RECRUITMENT ORDER FORM</h2>
+					<p class="peragraph mb-5">Please fill in all the necessary fields below, attach a detailed job
+						description where necessary, and submit it to
+						Manpower Services. Please provide accurate information for us to serve you better.</p>
+					<div class="footer-form">
+						<form id="contact-form">
+							<div class="row">
+							<div class="col-12 col-md-6">
+								<label>Job Title</label><br>
+								<input type="text" id="job-title" class="text-btn" placeholder="Job Title"
+									name="job-title">
+							</div>
+							<div class="col-12 col-md-6">
+								<label>Number of Vacancies</label><br>
+								<input type="number" id="vacancies" class="email-btn" placeholder="Number Of Vacancies"
+									name="Vacancies">
+							</div>
+							<div class="col-12" >
+							<label>Job Location</label><br>
+							<input type="text" id="vacancies" class="text-btn" placeholder="Job Location"
+								name="location">
+								</div>
+								<div class="col-12">
+							<label  >Job Description</label><br>
+							<textarea class="textarea" id="description" placeholder="Job description" name="description"
+								rows="10"></textarea>
+								</div>
+								<div class="col-12 col-md-6">
+							<label  >Job Description details (pdf)</label><br>
+							<input type="file" id="file" class="text-btn" placeholder="Detailed Job Description"
+								name="file">
+								</div>
+								<div class="col-12 col-md-6">
+							<label >Email</label><br>
+							<input type="email" id="email" class="email-btn" placeholder="Enter Contact Email"
+								name="email">
+								</div>
+								<div class="col-12 col-md-6">
+							<label  >Phone Number</label><br>
+							<input type="tel" id="phone" class="text-btn" placeholder="Enter Contact Number"
+								name="number">
+								</div>
+								<div class="col-12 col-md-6">
+							<label  >Name</label><br>
+							<input type="text" id="name" class="email-btn" placeholder="Enter Your Name" name="name"></div>
+							<div class="col-12 col-md-6">
+							<label  >Designation</label><br>
+							<input type="text" id="designation" class="text-btn" placeholder="Enter Your Designation"
+								name="designation">
+								</div>
+								<div class="col-12 col-md-6">
+							<label  >Date</label><br>
+							<input type="date" id="date" class="email-btn" title="full description pdf" name="date">
+</div>
+							</div>
+							<button type="submit" class="button2" name="submit" onclick="sendMailreq()">
+								Submit
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+
 
 	<!-- ===================
           tab-section end
        ================= -->
 
-			<!-- ===================
+	<!-- ===================
 			          number-section start
 			       ================= -->
-			<section class="cta">
-				<div class="container">
-					<div class=" cta-row d-flex justify-content-between align-items-center flex-column flex-md-row">
-						<div class="">
-							<h2 class="section-heading2">What To join Us?</h2>
-							<p class="peragraph">You Can Join Anytime From Any Where</p>
-						</div>
-						<a href=""><button class="button""">Let's Talk</button></a>
-					</div>
+	<section class="cta">
+		<div class="container">
+			<div class=" cta-row d-flex justify-content-between align-items-center flex-column flex-md-row">
+				<div class="">
+					<h2 class="section-heading2">What To join Us?</h2>
+					<p class="peragraph">You Can Join Anytime From Any Where</p>
 				</div>
-			</section>
-			<!-- ===================
+				<a href=""><button class="button">Let's Talk</button></a>
+			</div>
+		</div>
+	</section>
+	<!-- ===================
 			          number-section end
 			       ================= -->
 
@@ -471,7 +524,7 @@
 	<script src="js/app.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-	</script>
+		</script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/jquery.counterup.min.js"></script>
 	<script src="js/custom.js"></script>
