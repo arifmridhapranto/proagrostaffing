@@ -58,6 +58,7 @@ $(document).ready(function () {
      margin: 30,
      nav: true,
      slideBy: 1,
+     responsiveClass: true,
      responsive: {
        0: {
          items: 1,
