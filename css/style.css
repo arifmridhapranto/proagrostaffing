@@ -778,7 +778,7 @@ counter-up css end
 
 
 
-.testimonials {
+#testimonials {
 	column-gap: 30px;
 	margin: 30px 0px;
 	/* overflow-x: hidden; */
@@ -789,7 +789,7 @@ counter-up css end
 	width: 75%;
 }
 
-.testimonials-item {
+.testimonial-item {
 	padding: 30px;
 	border: 1px solid #8bc743;
 	box-shadow: 0px 6px 30px rgb(44 44 44 / 3%);
@@ -835,11 +835,11 @@ counter-up css end
 	color: #333333;
 }
 
-.testimonials .owl-carousel .owl-item img {
+#testimonials .owl-carousel .owl-item img {
 	width: 60px !important;
 }
 
-.testimonials .owl-nav .owl-prev {
+#testimonials .owl-nav .owl-prev {
 	position: absolute;
 	top: 50%;
 	left: -90px;
@@ -850,7 +850,7 @@ counter-up css end
 	transform: translateY(-50%);
 }
 
-.testimonials .owl-nav .owl-next {
+#testimonials .owl-nav .owl-next {
 	position: absolute;
 	top: 50%;
 	right: -90px;
@@ -861,20 +861,20 @@ counter-up css end
 	transform: translateY(-50%);
 }
 
-.testimonials .owl-nav .owl-prev span,
-.testimonials .owl-nav .owl-next span {
+#testimonials .owl-nav .owl-prev span,
+#testimonials .owl-nav .owl-next span {
 	font-size: 50px;
 	color: #8bc743;
 	line-height: 30px;
 }
 
-.testimonials .owl-nav .owl-prev:hover,
-.testimonials .owl-nav .owl-next:hover {
+#testimonials .owl-nav .owl-prev:hover,
+#testimonials .owl-nav .owl-next:hover {
 	background-color: #8bc743 !important;
 }
 
-.testimonials .owl-nav .owl-prev:hover span,
-.testimonials .owl-nav .owl-next:hover span {
+#testimonials .owl-nav .owl-prev:hover span,
+#testimonials .owl-nav .owl-next:hover span {
 	color: #fff
 }
 

@@ -32,7 +32,7 @@ extra large device
 		line-height: 26px;
 	}
 
-	.testimonials .owl-nav .owl-prev {
+	#testimonials .owl-nav .owl-prev {
 		position: absolute;
 		top: 50%;
 		left: -35px;
@@ -43,7 +43,7 @@ extra large device
 		transform: translateY(-50%);
 	}
 
-	.testimonials .owl-nav .owl-next {
+	#testimonials .owl-nav .owl-next {
 		position: absolute;
 		top: 50%;
 		right: -35px;
@@ -54,14 +54,14 @@ extra large device
 		transform: translateY(-50%);
 	}
 
-	.testimonials .owl-nav .owl-prev span,
-	.testimonials .owl-nav .owl-next span {
+	#testimonials .owl-nav .owl-prev span,
+	#testimonials .owl-nav .owl-next span {
 		font-size: 40px;
 		color: #8bc743;
 		line-height: 30px;
 	}
 
-	.testimonial-section .peragraph {
+	testimonial-section .peragraph {
 		width: 90%;
 	}
 
@@ -231,8 +231,8 @@ extra medium device
 	}
 
 
-	.testimonials .owl-nav .owl-prev,
-	.testimonials .owl-nav .owl-next {
+	#testimonials .owl-nav .owl-prev,
+	#testimonials .owl-nav .owl-next {
 		display: none;
 	}
 

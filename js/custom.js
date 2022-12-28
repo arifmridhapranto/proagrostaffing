@@ -50,7 +50,7 @@ $(document).ready(function () {
 
 // });
 $(document).ready(function () {
-  $(".testimonials").owlCarousel({
+  $("#testimonials").owlCarousel({
     autoplay: true,
     dots: false,
     loop: true,
