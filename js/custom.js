@@ -52,6 +52,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $("#testimonials").owlCarousel({
     autoplay: true,
+    responsiveBaseElement: 'body',
     dots: false,
     loop: true,
     speed: 400,
