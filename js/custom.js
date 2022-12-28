@@ -49,95 +49,97 @@ $(document).ready(function () {
 //   });
 
 // });
- $(document).ready(function () {
-   $(".testimonials").owlCarousel({
-     autoplay: true,
-     dots: false,
-     loop: true,
-     speed: 400,
-     margin: 30,
-     nav: true,
-     slideBy: 1,
-     responsiveClass: true,
-     responsive: {
-       0: {
-         items: 1,
-       },
-       768: {
-         items: 2,
-       },
-       1025: {
-         items: 3,
-       },
-     },
-   });
- });
+$(document).ready(function () {
+  $(".testimonials").owlCarousel({
+    autoplay: true,
+    dots: false,
+    loop: true,
+    speed: 400,
+    margin: 30,
+    nav: true,
+    slideBy: 1,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
 
-   function toggleMobileMenu(menu) {
-     menu.classList.toggle("open");
-   }
+      768: {
+        items: 2,
+      },
 
+      1024: {
+        items: 3,
+      },
 
-   	function sendMail() {
-      var params = {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        phone: document.getElementById("phone").value,
-        subject: document.getElementById("subject").value,
-        message: document.getElementById("message").value,
-      };
+      1366: {
+        items: 3,
+      },
+    },
+  });
+});
 
-      const serviceID = "service_skaa1kj";
-      const templateID = "template_75s826s";
-
-      emailjs
-        .send(serviceID, templateID, params)
-        .then((res) => {
-          document.getElementById("name").value = "";
-          document.getElementById("email").value = "";
-          document.getElementById("phone").value = "";
-          document.getElementById("subject").value = "";
-          document.getElementById("message").value = "";
-          console.log(res);
-          alert("Your message sent successfully!!");
-        })
-        .catch((err) => console.log(err));
+function toggleMobileMenu(menu) {
+  menu.classList.toggle("open");
 }
-    function sendMailreq() {
-      var params = {
-        title: document.getElementById("job-title").value,
-        vacancies: document.getElementById("vacancies").value,
-        location: document.getElementById("location").value,
-        description: document.getElementById("description").value,
-        descriptionFile: document.getElementById("file").value,
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        phone: document.getElementById("number").value,
-        designation: document.getElementById("designation").value,
-        date: document.getElementById("date").value,
-      };
 
-      const serviceID = "service_skaa1kj";
-      const templateID = "template_75s826s";
+function sendMail() {
+  var params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone: document.getElementById("phone").value,
+    subject: document.getElementById("subject").value,
+    message: document.getElementById("message").value,
+  };
 
-      emailjs
-        .send(serviceID, templateID, params)
-        .then((res) => {
-          document.getElementById("job-title").value = "";
-        document.getElementById("vacancies").value = "";
-         document.getElementById("location").value = "";
-         document.getElementById("description").value = "";
-         document.getElementById("file").value = "";
-        document.getElementById("name").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("number").value = "";
-         document.getElementById("designation").value = "";
-        document.getElementById("date").value = "";
-          console.log(res);
-          alert("Your message sent successfully!!");
-        })
-        .catch((err) => console.log(err));
-    }
+  const serviceID = "service_skaa1kj";
+  const templateID = "template_75s826s";
 
+  emailjs
+    .send(serviceID, templateID, params)
+    .then((res) => {
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("phone").value = "";
+      document.getElementById("subject").value = "";
+      document.getElementById("message").value = "";
+      console.log(res);
+      alert("Your message sent successfully!!");
+    })
+    .catch((err) => console.log(err));
+}
+function sendMailreq() {
+  var params = {
+    title: document.getElementById("job-title").value,
+    vacancies: document.getElementById("vacancies").value,
+    location: document.getElementById("location").value,
+    description: document.getElementById("description").value,
+    descriptionFile: document.getElementById("file").value,
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone: document.getElementById("number").value,
+    designation: document.getElementById("designation").value,
+    date: document.getElementById("date").value,
+  };
 
+  const serviceID = "service_skaa1kj";
+  const templateID = "template_75s826s";
 
+  emailjs
+    .send(serviceID, templateID, params)
+    .then((res) => {
+      document.getElementById("job-title").value = "";
+      document.getElementById("vacancies").value = "";
+      document.getElementById("location").value = "";
+      document.getElementById("description").value = "";
+      document.getElementById("file").value = "";
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("number").value = "";
+      document.getElementById("designation").value = "";
+      document.getElementById("date").value = "";
+      console.log(res);
+      alert("Your message sent successfully!!");
+    })
+    .catch((err) => console.log(err));
+}
