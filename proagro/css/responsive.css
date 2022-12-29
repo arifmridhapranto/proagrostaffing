@@ -1,0 +1,457 @@
+/* ===============
+extra laptop device
+================ */
+@media screen and (max-width: 1366px) {
+	.testimonial-section .peragraph {
+		width: 75%;
+	}
+
+	.banner-heading {
+		font-size: 48px;
+		line-height: 58px;
+	}
+}
+
+
+/* ===============
+extra large device
+================ */
+@media screen and (max-width: 1024px) {
+	.header-top {
+		height: 70px;
+		padding: 7px 0;
+	}
+
+	.section-heading {
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	.peragraph {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	#testimonials .owl-nav .owl-prev {
+		position: absolute;
+		top: 50%;
+		left: -35px;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #e5e5e5 !important;
+		transform: translateY(-50%);
+	}
+
+	#testimonials .owl-nav .owl-next {
+		position: absolute;
+		top: 50%;
+		right: -35px;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #e5e5e5 !important;
+		transform: translateY(-50%);
+	}
+
+	#testimonials .owl-nav .owl-prev span,
+	#testimonials .owl-nav .owl-next span {
+		font-size: 40px;
+		color: #8bc743;
+		line-height: 30px;
+	}
+
+	testimonial-section .peragraph {
+		width: 90%;
+	}
+
+	.section-heading2 {
+
+		font-size: 32px;
+		line-height: 42px;
+
+	}
+
+	.counter-item p {
+
+		font-size: 18px;
+		line-height: 28px;
+
+	}
+
+	.number {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	.content-heading {
+		font-family: var(--hfont);
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 32px;
+		color: #000;
+	}
+
+	.Factsheet-area .peragraph {
+		width: 90%;
+
+	}
+
+	.banner-heading {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.banner-pera {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	#footer-bg h2 {
+		font-size: 32px;
+		line-height: 42px
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+	header {
+		padding: 0px 20px;
+	}
+
+	header nav {
+		display: none;
+	}
+
+	#hamburger-icon {
+		display: block;
+	}
+
+	/* about page  */
+	.mission-area .container .description p {
+		padding: 0px 30px;
+	}
+
+	.mission-area .container .mission-heading h2 {
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	.section-heading2 {
+
+		font-size: 28px;
+		line-height: 38px;
+
+	}
+
+	.section-heading {
+
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.banner-heading {
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	.banner-pera {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	#footer-bg h2 {
+		font-size: 28px;
+		line-height: 38px
+	}
+}
+
+
+/* ===============
+extra medium device
+================ */
+@media screen and (max-width: 767px) {
+	header {
+		padding: 0px 20px;
+	}
+
+	header nav {
+		display: none;
+	}
+
+	#hamburger-icon {
+		display: block;
+	}
+
+	#menu-btn {
+		display: inline-block;
+	}
+
+	.navbar-toggler-icon {
+		height: 20px;
+		width: 20px;
+	}
+
+	.navbar-brand img {
+		width: 150px;
+	}
+
+	.header-top {
+		padding: 5px 20px
+	}
+
+	.header-top .container .left-side a {
+		font-size: 16px;
+		line-height: 26px;
+		;
+	}
+
+	.header-top .container .right-side a {
+		text-align: left;
+		padding-right: 10px;
+	}
+
+	.section-heading {
+		font-size: 24px;
+		line-height: 34px;
+	}
+
+	.section-heading2 {
+		font-size: 24px;
+		line-height: 34px;
+	}
+
+	.peragraph {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	#about {
+		padding: 60px 20px;
+	}
+
+
+	#testimonials .owl-nav .owl-prev,
+	#testimonials .owl-nav .owl-next {
+		display: none;
+	}
+
+	.testimonial-section .peragraph {
+		width: 100%;
+	}
+
+	.section-heading2 {
+
+		font-size: 28px;
+		line-height: 38px;
+
+	}
+
+	.cta {
+		padding: 60px 20px;
+	}
+
+	.footer-section {
+		padding: 60px 20px;
+	}
+
+	#counter-up {
+		padding: 60px 20px;
+	}
+
+	.Factsheet-area .peragraph {
+		width: 100%;
+
+	}
+
+	.Factsheet-area {
+		padding: 60px 20px;
+	}
+
+	.Factsheet-area img {
+		margin-top: 20px
+	}
+
+	.Services {
+		padding: 60px 20px
+	}
+
+
+
+
+
+	/* about page */
+	.banner-heading {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.banner-pera {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.mission-area {
+		padding: 0px 20px;
+	}
+
+	.mission-area .container .description p {
+		padding: 0px 30px;
+	}
+
+	.mission-area .container .mission-heading h2 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.about-area {
+		padding: 0px 20px;
+	}
+
+	.our-spacitiality {
+		padding: 0px 20px;
+	}
+
+	.training-area {
+		padding: 50px 20px;
+	}
+
+	.service-area {
+		padding: 0px 20px;
+	}
+
+	#footer-bg {
+		padding: 50px 20px;
+	}
+
+	#footer-bg h2 {
+		font-size: 28px;
+		line-height: 38px
+	}
+
+	#footer-bg form .text-btn {
+		width: 100%;
+
+	}
+
+	#footer-bg form .email-btn {
+		width: 100%;
+	}
+
+		#contact-us {
+			padding: 50px 20px
+		}
+				.tab-content {
+					margin-top: 50px;
+				}
+
+}
+
+/* ===============
+extra small device
+================ */
+@media (max-width:575px) {
+
+	/* navbar css start */
+
+	.navbar .navbar-brand {
+		margin-left: 10px;
+		padding: 5px 10px !important;
+	}
+
+	.navbar .navbar-brand img {
+		height: 40px;
+		transform: skewX(0deg);
+	}
+
+	.navbar .navbar-brand {
+
+		transform: skewX(0deg);
+
+	}
+
+	/* navbar css end */
+
+	/* banner css start */
+
+	.ms-auto {
+
+		text-align: center;
+	}
+
+	#banner .bg1 h2::before {
+		visibility: hidden;
+	}
+
+	#banner .bg1 h2::after {
+		visibility: hidden;
+	}
+
+
+	#banner .bg1 h1::before {
+		visibility: hidden;
+	}
+
+	#banner .bg1 h1::after {
+		visibility: hidden;
+	}
+
+
+	#banner .bg1 p::before {
+		visibility: hidden;
+	}
+
+	#banner .bg1 p::after {
+		visibility: hidden;
+	}
+
+	#banner .banner-item h1 {
+		font-size: 50px;
+	}
+
+	#banner .banner-item h2 {
+		font-size: 28px;
+	}
+
+	/* banner css end */
+
+	/* about css start */
+
+
+	#about {
+		margin-bottom: 50px;
+	}
+
+
+
+	#about .about-text p:last-of-type {
+		padding-bottom: 20px;
+	}
+
+	/* about css end */
+
+	#counter-up .counter-main {
+
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#counter-up .counter-main .counter-item {
+		width: 100%;
+
+	}
+
+	#counter-up .counter-main .counter-item p {
+
+		padding-bottom: 0px;
+	}
+
+	#counter-up .counter-main .counter-item:last-of-type p {
+		padding-bottom: 30px;
+	}
+
+
+
+}
